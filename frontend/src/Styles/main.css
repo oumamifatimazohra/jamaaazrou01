@@ -1,0 +1,416 @@
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;700&display=swap");
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: "Titillium Web", sans-serif;
+}
+
+:root {
+	--mainColor: white;
+	--mainColorLight: #5767aa;
+	--secondaryColor:  rgb(11, 149, 57);
+	--textColor: rgb(11, 149, 57);
+}
+body{
+	background-color: white;
+	
+}
+header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height: 100px;
+	padding: 0 2rem;
+	background-color: var(--mainColor);
+	color: var(--textColor);
+}
+
+nav a {
+	margin: 0 1rem;
+	color: var(--textColor);
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: var(--secondaryColor);
+}
+
+header .nav-btn {
+	padding: 5px;
+	cursor: pointer;
+	background: transparent;
+	border: none;
+	outline: none;
+	color: var(--textColor);
+	visibility: hidden;
+	opacity: 0;
+	font-size: 1.8rem;
+}
+
+header div,
+nav {
+	display: flex;
+	align-items: center;
+	
+}
+nav{
+	margin-left: 30px;
+}
+.btn{
+	border: none;
+	color: var(--textColor);
+	
+}
+form {
+	margin-top: 30px;
+	margin-left: 300px ;
+	border-radius: 15px;
+	padding: 50px;
+}
+.Carousel {
+	background-color: rgb(1, 74, 113);
+	 color: rgb(255, 255, 255);
+	 background-size: cover; 
+	 background-blend-mode: multiply; 
+}
+
+.caption{
+	text-align: left;
+	padding: 20px;
+}
+.Carouselone {
+	background-color: rgb(11, 149, 57);
+	 color: rgb(243, 235, 235);
+	 background-size: cover; 
+	 background-blend-mode: multiply;
+	 
+}
+.Banner{
+	background-image: url("https://i.ibb.co/JKr0d2V/Image-FACDI-Franc-ais-Logo-DGCT-0.png");
+    background-color:rgba(250, 194, 39, 0.5);
+	color: rgb(255, 255, 255);
+	background-size: cover; 
+	background-blend-mode: multiply;
+	
+}
+.Bannerone {
+	background-image: url("https://i.ibb.co/Mk7SQfS/toolkit.jpg");
+	color: rgb(255, 255, 255);
+	background-size: cover; 
+	background-blend-mode: multiply;
+}
+.title{
+   margin: 50px 20px;
+
+}
+.Section {
+	display: flex;
+}
+.Sectionsecond{
+	display: flex;
+	justify-content: center;
+	margin-top: 50px;
+}
+.Sectionsecond a div{
+ margin: 20px;
+ text-align: center;
+}
+.Sectionsecond a:hover{
+	color: black;
+   }
+.img {
+	height: 50vh;
+	width: 40vw;
+}
+.linkone{
+	width: 50vw;
+	height: 25vh;
+	padding: 15px;
+	background-color: #014a71;
+	margin-top: 80px;
+}
+.linkone a:hover{
+	color: black;
+ }
+.linkzero a:hover{
+   color: black;
+}
+.sectwo{
+	display: flex;
+}
+.linkzero{
+	margin: 20px;
+}
+.actual{
+	display: flex;
+}
+.actualfirst{
+	height: 25vh;
+	width: 25vw;
+	margin: 20px;
+	text-align: center;
+}
+.actualfirst div a:hover{
+	color: black;
+}
+.actualsecond{
+	height: 25vh;
+	width: 25vw;
+	margin: 20px;
+	text-align: center;
+}
+.actualsecond div a:hover{
+	color: black;
+}
+.region{
+	height: 5vh;
+	width: 18vw;
+	text-align: center;
+}
+.region a:hover{
+	color: black;
+}
+.province{
+	height: 5vh;
+	width: 18vw;
+	text-align: center;
+}
+.province a:hover{
+	color: black;
+}
+.commune{
+	height: 5vh;
+	width: 18vw;
+	text-align: center;
+}
+.commune a:hover{
+	color: black;
+}
+.Sectiontree{
+	display: flex;
+	justify-content: center;
+	margin-top: 100px;
+}
+.Sectiontree a div{
+	margin: 20px;
+	text-align: center;
+   }
+.Sectiontree a:hover{
+	color: black;
+   }
+.Carouseltwo{
+width: 45vw;
+
+
+   }
+.discours{
+	background-size: cover; 
+	background-blend-mode: multiply;
+	background-color:rgba(17, 106, 195, 0.5);
+	padding: 10px;
+	width: 30vw;
+	text-align: center;	
+}
+.juridique{
+	background-size: cover; 
+	background-blend-mode: multiply;
+	background-color:rgba(250, 194, 39, 0.5);
+	padding: 10px;
+	width: 30vw;
+	text-align: center;
+}
+.Stree{
+	display: flex;
+}
+.Streedis{
+	
+	color: #014a71;
+	margin: 25px;
+}
+
+.Streedis a:hover{
+	color: #014a71;
+}
+.Streejur{
+	margin: 25px;
+	color:#d29858 ;
+}
+.Streejur a:hover{
+	color: #d29858;
+}
+.icon:hover{
+	color: rgb(11, 149, 57);
+}
+/* footer */
+.App {
+	text-align: center;
+  }
+  
+  .App-logo {
+	height: 40vmin;
+	pointer-events: none;
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+	.App-logo {
+	  animation: App-logo-spin infinite 20s linear;
+	}
+  }
+  
+  .App-header {
+	background-color: #282c34;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-size: calc(10px + 2vmin);
+	color: white;
+  }
+  
+  .App-link {
+	color: #61dafb;
+  }
+  
+  @keyframes App-logo-spin {
+	from {
+	  transform: rotate(0deg);
+	}
+	to {
+	  transform: rotate(360deg);
+	}
+  }
+  
+  .page-container {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+  }
+  .content-wrap {
+	flex: 1;
+  }
+  
+@media only screen and (max-width: 1024px) {
+	header .nav-btn {
+		visibility: visible;
+		opacity: 1;
+	}
+
+	header nav {
+		position: fixed;
+		top: 0;
+		left: 0;
+		height: 100%;
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		gap: 1.5rem;
+		background-color: var(--mainColor);
+		transition: 1s;
+		transform: translateY(-100vh);
+	}
+
+	header .responsive_nav {
+		transform: none;
+	}
+
+	nav .nav-close-btn {
+		position: absolute;
+		top: 2rem;
+		right: 2rem;
+	}
+
+	nav a {
+		font-size: 1.5rem;
+	}
+	.btn{
+		border: none;
+		color: var(--textColor);
+	}
+	form {
+		margin: 0px;
+		
+	}
+	.Section{
+		display: flex;
+		flex-direction: column;
+	}
+	.Carouselone{
+		height: 70vh;	
+	}
+    .caption{
+		padding-top: px;
+	}
+}
+
+
+
+h1{
+	font-size: 50px;
+  }
+  h2{
+	  font-size: 34px;
+  }
+  h4{
+	  font-size: 24px;
+  }
+  a:hover{
+  color: white;
+  }
+  .trans{
+	  @apply transition duration-1000 ease-out
+  }
+  .social{
+	  @apply hover:animate-spin
+  }
+  
+  .flex-colo{
+	  @apply flex justify-center items-center flex-col
+  }
+  .flex-rows{
+	  @apply flex justify-center items-center flex-row gap-12 text-xs
+  }
+  input:focus,select:focus,textarea:focus{
+	  outline: 0;
+  }
+  .box-1{
+	  width: 36%;
+  }
+  .box-2{
+	  width:64%;
+  }
+  .box-shadow{
+	  box-shadow: 10px 10px 40px 0px #24252614;
+	  box-shadow: -10px -10px 40px 0px #24252614;
+  
+  }
+  
+  @media (max-width:640px) {
+	  .main-box{
+		  flex-direction:column
+	  }
+	  .box-1,.box-2{
+		  width: 100%;
+	  }
+	  label{
+		  font-size: .9rem;
+	  }
+  }
+
+  /* contactus*/
+  .contactus{
+	width: 90vw;
+	height: 30vh;
+	background-image: url("https://www.collectivites-territoriales.gov.ma/themes/custom/pnct/img/bg-grey.png");
+	text-align: center;
+	padding-top: 40px;
+	margin-left:20px ;
+	margin-right: 20px;
+  }
+  form{
+	margin: 0;
+  }
